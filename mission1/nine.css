@@ -1,0 +1,13 @@
+body {
+    font-size: 63%;
+    margin: 10px;
+}
+.nine {
+    float: left;
+    margin: 1%;
+    background-color:#FFA600;
+    width:31%;
+    height:0;  
+    padding-bottom: 31%;  
+    border-radius: 5%;
+}
