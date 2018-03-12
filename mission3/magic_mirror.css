@@ -1,4 +1,4 @@
-/* 图片背景颜色#68cdd5 */
+/* 大小比例0.04 */
 html {
     height: 100%;
 }
@@ -8,11 +8,41 @@ body {
     height: 100%;
 }
 .container {
-    background-color: #68cdd5;
+    /* background-color: #68cdd5; */
+    background-image: url('images/task3_background_img.png');
     width: 100%;
     height: 100%;
 }
-.img_bottom {
-    width: 85px;
-    height: 85px;
+.head {
+    padding-top:5rem; 
+    padding-bottom: 6rem;
+    padding-left: 31%; 
+}
+.img_head_logo {
+    width: 7.24rem;
+    height: 2.8rem;
+}
+
+.bottom {
+    padding-top:6rem; 
+    padding-bottom: 5rem;
+    padding-left:2.5rem; 
+}
+.img_bottom1 {
+    width: 3.36rem;
+    height: 3.36rem;
+}
+.img_bottom2 {
+    width: 3.36rem;
+    height: 3.36rem;
+    margin-right: 5rem;
+}
+.content {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.content_description {
+    font-family: "Hiragino Sans GB";
+    font-size: 1em;
+    color: #FFF;
 }
