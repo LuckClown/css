@@ -32,8 +32,10 @@ body {
 }
 .content {
     text-align: left;
-    padding-left: 3.0rem;
-    padding-right: 3.0rem; 
+    /* padding-left: 3.0rem;
+    padding-right: 3.0rem;  */
+    padding-left: 12%;
+    padding-right: 12%;
 }
 .content_description {
     font-family: "Hiragino Sans GB";
@@ -43,8 +45,10 @@ body {
 
 .bottom {
     padding-top:6rem; 
-    padding-left: 3.8rem;
-    padding-right: 3.8rem; 
+    /* padding-left: 3.8rem;
+    padding-right: 3.8rem;  */
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .img_bottom1 {
     width: 3.36rem;
