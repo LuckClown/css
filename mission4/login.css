@@ -26,6 +26,9 @@ body {
 .login_text {
     width: 40%;
     text-align: center;
+    font-family: "SimHei";
+    color: white;
+    font-size: 1.8rem;
 }
 .close_text {
     width: 30%;
@@ -57,4 +60,34 @@ body {
 .input_case {
     outline: none;
     border: 0;
+}
+.login_btn {
+    width: 100%;
+    height: 4.3em;
+    margin-top: 0.75rem;
+    background-color:  #5fc0cd;
+    display: flex;
+    align-items: center;
+}
+.login_btn_text {
+    width: 100%;
+    font-family: "SimHei";
+    font-size: 1.8rem;
+    color: white;
+    text-align: center; 
+}
+.forget_password {
+    width: 100%;
+    height: 3.6em;
+    display: flex;
+    align-items: center;
+}
+.forget_password_text {
+    font-family: "SimHei";
+    color: #5fc0cd;
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: right;
+    padding: 1.1rem;
+    text-decoration: underline;
 }
