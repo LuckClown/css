@@ -8,9 +8,7 @@ html {
     margin: 0;
     padding: 0;
 }
-/* body {
-    overflow: hidden;
-} */
+
 .header {
     background-color: #5fc0cd;
     width: 100%;
@@ -36,11 +34,14 @@ html {
     line-height: 4.25rem;
     overflow:hidden;
 }
+
+
 .main {
     position: relative;
     top: 4.25rem;
     overflow: auto;
     height: 100%;
+    padding-bottom: 6rem;
 }
 .main_banner {
     background-image: url("images/banner.png"); 
@@ -63,7 +64,7 @@ html {
     left: 11.9rem;
 }
 .self_info > p {
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 }
 .self_name {
     color: white;
@@ -85,9 +86,9 @@ html {
     font-family: "SimHei";
 }
 .location_img {
-    width: 0.9rem;
+    width: .9rem;
     height: 1.15rem;
-    margin-right: 0.5rem;
+    margin-right: .5rem;
 }
 .skill_head {
     min-height: 4.6rem;
@@ -96,7 +97,7 @@ html {
     padding-left: 1.5rem; 
 }
 .skill_head > img {
-    width: 0.15rem;
+    width: .15rem;
     height: 1.3rem;
     margin-right: 1rem;
 }
@@ -120,7 +121,7 @@ html {
 }
 .hyphen {
     border: none;
-    height: 0.12rem;
+    height: .12rem;
     background-color: #d6d6d6;
 }
 .skill_star {
@@ -132,17 +133,17 @@ html {
 .skill_star > img:nth-of-type(odd) {
     height: 1.2rem;
     width: 1.2rem;
-    margin-right: 0.4rem;
+    margin-right: .4rem;
 }
 .skill_star > img:nth-of-type(even) {
     height: 1.3rem;
-    width: 0.05rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    width: .05rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 .hyphen_short {
     border: none;
-    height: 0.1rem;
+    height: .1rem;
     background-color: #d6d6d6;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -158,16 +159,18 @@ html {
 }
 .skill_content > img {
     height: 1.5rem;
-    width: 0.15rem;
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
+    width: .15rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
 }
 .description {
     margin-right: 1.5rem; 
     word-wrap:break-word;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
 }
+
+
 .footer {
     position: fixed;
     height: 6rem;
@@ -186,14 +189,14 @@ html {
     align-items: center;
 }
 .message_box div {
-    border: 0.2rem solid #5fc0cd;
+    border: .2rem solid #5fc0cd;
     border-radius: 0.5rem;
     height: 4.25rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
-    margin-right: 0.5rem;
+    margin-right: .5rem;
     margin-left: 1rem;
 }
 .message_box span {
@@ -208,7 +211,7 @@ html {
     align-items: center;
 }
 .phone_box div {
-    border: 0.2rem solid #5fc0cd;
+    border: .2rem solid #5fc0cd;
     background-color: #5fc0cd;
     border-radius: 0.5rem;
     height: 4.25rem;
@@ -217,7 +220,7 @@ html {
     align-items: center;
     justify-content:center;
     margin-right: 1rem;
-    margin-left: 0.5rem;
+    margin-left: .5rem;
 }
 .phone_box span {
     color: white;
