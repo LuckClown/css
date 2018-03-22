@@ -1,0 +1,92 @@
+/*
+.bg-location_header {
+    width: 21px; height: 22px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-person {
+    width: 21px; height: 21px;
+    background: url('css_sprites.png') -10px -52px;
+}
+
+.bg-write {
+    width: 20px; height: 21px;
+    background: url('css_sprites.png') -51px -52px;
+}
+
+.bg-arrow {
+    width: 9px; height: 16px;
+    background: url('css_sprites.png') -94px -10px;
+}
+
+.bg-calendar {
+    width: 12px; height: 12px;
+    background: url('css_sprites.png') -123px -10px;
+}
+
+.bg-filter_arrow {
+    width: 7px; height: 4px;
+    background: url('css_sprites.png') -94px -46px;
+}
+
+.bg-home {
+    width: 23px; height: 20px;
+    background: url('css_sprites.png') -51px -10px;
+}
+
+.bg-location {
+    width: 10px; height: 12px;
+    background: url('css_sprites.png') -123px -42px;
+}
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.5rem;
+    width: 100%;
+    background-color: #5fc0cd;
+}
+.employer_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 6rem;
+    height: 3.6rem;
+    background-color: #55a8b3;
+}
+.employer_text {
+    color: #fff;
+    font-family: "SimHei";
+    font-size: 1.7rem;
+}
+.employee_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 6rem;
+    height: 3.6rem;
+    background-color: #fff;
+}
+.employee_text {
+    color: #5fc0cd;
+    font-family: "SimHei";
+    font-size: 1.7rem;
+}
+.bg-location_header {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.2rem;
+    width: 2.1rem;
+    height: 2.2rem;
+    background: url(images/css_sprites.png) -10px -10px;
+}
