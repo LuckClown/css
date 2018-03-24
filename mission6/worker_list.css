@@ -90,3 +90,9 @@ html {
     height: 2.2rem;
     background: url(images/css_sprites.png) -10px -10px;
 }
+
+.nav_pos {
+    position: fixed;
+    top: 6.5rem;
+    height: ;
+}
